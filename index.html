@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Git Repo</title>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <h1>Learning Git & Github</h1>
+  </hr>
+    <h2>Git Commands</h2>
+    <h3>Git Bash</h3>
+    <ol>
+      <li>git --version : used to know which version of git user is using.</li>
+      <li>git config --global user.name "" : used to give user name in git, "global" dictates that name is being saved globally.</li>
+      <li>git config --global user.email "" : used to connect local editor to git using email.</li>
+      <li>git config --list : used to get to know what all credential changes user has done.</li>
+      <li>clear : used to clear the terminal.</li>
+    </ol>
+    <h3>VS code Terminal</h3>
+    <ol>
+      <li>git clone <-link of repo-> : connects local code editor to git.</li>
+      <li>cd : used to change directory</li>
+      <li>ls : used to show list of files</li>
+      <li>ls -hidden : used to show hidden list of files.</li> 
+      <li>git status : used to know about the status of the files</li>
+    <p>There are four types of states of files:\n 1. Untracked: types of files that are unknown to git. \n 2. Staged: types of files which are ready to be committed. \n 3. Modified: types of files whose context have been changed. \n 4. Unmodified: types of files that remain unchanged.</p>
+      <li>git add <-name of file-> : stages the specific file.</li>
+      <li>git add . : adds all of the files to a staged position.</li>
+      <li>git commit -m "a meaningful message": used to commit all the staged files.</li>
+      <li>git push origin main - used to push all the commited files so as to show a change in our github repo</li>
+    </ol>
+  </body>
+</html>
