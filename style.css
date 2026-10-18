@@ -1,4 +1,9 @@
 ol li{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Lobster';
     font-size: 16px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lobster', 'Playfair Display', 'Times New Roman', serif;
 }
