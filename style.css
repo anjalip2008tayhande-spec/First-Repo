@@ -1,9 +1,13 @@
 ol li{
-    font-family:'Lobster';
+    font-style: italic;
     font-size: 16px;
 }
 h3 {
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Lobster', 'Playfair Display', 'Times New Roman', serif;
+    font-family: 'Roboto';
+    color:darkblue;
+}
+.h1{
+    color: #ff0000;
 }
